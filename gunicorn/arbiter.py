@@ -254,7 +254,8 @@ class Arbiter(object):
 
     def handle_term(self):
         "SIGTERM handling"
-        raise StopIteration
+        # raise StopIteration
+        pass
 
     def handle_int(self):
         "SIGINT handling"
